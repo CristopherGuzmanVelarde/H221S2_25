@@ -1,32 +1,22 @@
 {
-  "name": "h221s2_25",
+  "name": "h221s2_18",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "main": "login.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CristopherGuzmanVelarde/H221S2_25.git"
+    "start": "node login.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CristopherGuzmanVelarde/H221S2_25/issues"
-  },
-  "homepage": "https://github.com/CristopherGuzmanVelarde/H221S2_25#readme",
   "dependencies": {
     "axios": "^1.2.1",
     "bootstrap": "^5.2.3",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "express-session": "^1.17.3",
     "mysql": "^2.18.1",
+    "node": "^19.3.0",
     "nodemon": "^2.0.20"
   }
 }
